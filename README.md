@@ -1,5 +1,8 @@
 # Estruturando-Backend-ts-node-init
-
+```
+Ps: Caso esteja utilizando o pacote YARN, basta usar no lugar de npm install, yarn add.
+```
+#
 🏁 Start - Criando as pastas do projeto e o index.ts
 
 💻 Comando: `mlkdir build src`
