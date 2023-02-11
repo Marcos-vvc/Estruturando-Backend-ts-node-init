@@ -60,9 +60,9 @@ Agora, o comando **npm start** já transpila o index.ts e executa o index.js.
 // dentro do package.json, adicionar um script para rodarmos o ts-node-dev:
 
 "scripts": {
-		"dev": "ts-node-dev ./src/index.ts",
-		"start": "tsc && node ./build/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "tsc && node ./build/index.js",
+      "dev": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
+      "build": "tsc"
 },
 ```
 Agora, o comando **npm run dev** já deixa o programa rodando sem interrupção.
